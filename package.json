@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-4",
+  "version": "1.0.0",
+  "description": "Aprendiendo Bootstrap4 y NodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DvC99/Bootstrap-4.git"
+  },
+  "author": "Daniel Valencia Cordero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DvC99/Bootstrap-4/issues"
+  },
+  "homepage": "https://github.com/DvC99/Bootstrap-4#readme"
+}
