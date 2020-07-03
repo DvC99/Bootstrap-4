@@ -5,3 +5,11 @@ body {
     background-color: white;
     margin: 8px;
 }
+.tarjetas-flex {
+    background-color: white;
+    flex: 1 150px;
+    padding: 2px 2px 2px 5px;
+}
+.btn-reserva {
+    width: 100%;
+}
