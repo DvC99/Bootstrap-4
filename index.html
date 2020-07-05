@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
     <!--Favicon-->
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="./img/brand.png" type="image/x-icon">
     <!--Title-->
         <title>Landingpage</title>
     <!--CSS-->
@@ -16,19 +16,46 @@
     <!-- FONT AWESOME -->
         <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./CSS/styles.css">
  
     
 </head>
 <body>
     <header>
-        <div class="jumbotron" style="background-color: yellowgreen;color: black;">
-            <h1>My first Landingpage</h1>
-          </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <!-- Image and text -->
+            <a class="navbar-brand" href="#">
+                <img src="./img/brand.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Bootstrap
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contactanos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Productos</a></li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                
+            </div>
+        </nav>
+
+    
+        <div class="jumbotron">
+            <h1>Cortejidos</h1>
+        </div>
     </header>
     
     <main>
        <div class="container">
+
            <div class="row">
                <div class="col col-sm col-md col-lg col-xl tarjetas">
                     <h2>Product 1</h2>
@@ -70,55 +97,55 @@
             </div>
        
 
-       <div class="d-flex flex-wrap ">
-           
-            <div class="tarjetas col-12 col-sm-3">
-                <div>
-                    <h2>ITEM EN PROMOCION!!!!!</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In consectetur officia delectus ut. Nihil, est non ullam numquam suscipit atque cumque aliquam quam et aspernatur, dicta velit dignissimos id neque?</p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-secondary btn-reserva" style="background-color: yellowgreen;color: black;">Bootom 4</button>
-                </div>
-            </div>
+            <div class="d-flex flex-wrap ">
+                
+                    <div class="tarjetas col-12 col-sm-3">
+                        <div>
+                            <h2>ITEM EN PROMOCION!!!!!</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In consectetur officia delectus ut. Nihil, est non ullam numquam suscipit atque cumque aliquam quam et aspernatur, dicta velit dignissimos id neque?</p>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-secondary btn-reserva" style="background-color: yellowgreen;color: black;">Bootom 4</button>
+                        </div>
+                    </div>
 
-            <div class="tarjetas col-12 col-sm-5">
-                <div>
-                    <h2>MEGA GANGA</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In consectetur officia delectus ut. Nihil, est non ullam numquam suscipit atque cumque aliquam quam et aspernatur, dicta velit dignissimos id neque?</p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-secondary btn-reserva" style="background-color: yellowgreen;color: black;">Bootom 5</button>
-                </div>
-            </div>
+                    <div class="tarjetas col-12 col-sm-5">
+                        <div>
+                            <h2>MEGA GANGA</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In consectetur officia delectus ut. Nihil, est non ullam numquam suscipit atque cumque aliquam quam et aspernatur, dicta velit dignissimos id neque?</p>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-secondary btn-reserva" style="background-color: yellowgreen;color: black;">Bootom 5</button>
+                        </div>
+                    </div>
 
-            <div class="tarjetas col-12 col-sm-3">
-                <div>
-                    <h2>SOLO AQUI!!!</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In consectetur officia delectus ut. Nihil, est non ullam numquam suscipit atque cumque aliquam quam et aspernatur, dicta velit dignissimos id neque?</p>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-secondary btn-reserva" style="background-color: yellowgreen;color: black;">Bootom 6</button>
-                </div>
+                    <div class="tarjetas col-12 col-sm-3">
+                        <div>
+                            <h2>SOLO AQUI!!!</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In consectetur officia delectus ut. Nihil, est non ullam numquam suscipit atque cumque aliquam quam et aspernatur, dicta velit dignissimos id neque?</p>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-secondary btn-reserva" style="background-color: yellowgreen;color: black;">Bootom 6</button>
+                        </div>
+                    </div>
             </div>
-        </div>
 
        </div>
     </main>
 
     <footer class="tarjetas">
         <section class="row">
-            <section class="col-3 col col-sm col-md col-lg col-xl">
+            <section class="col-sm">
                 <h2 style="font-size: 20px;">SIGUENOS EN NUESTRAS REDES SOCIALESS</h2>
                 <a href="#" >
-                    <i class="fab fa-facebook"style="margin: 8px;"></i></a>
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="#">
-                    <i class="fab fa-twitter"style="margin: 8px;"></i> </a>
+                    <i class="fa fa-twitter" aria-hidden="true"></i> </a>
                 <a href="#">
-                    <i class="fab fa-instagram" style="margin: 8px;"></i></a>
+                    <i class="fa fa-instagram" aria-hidden="true"></i></a>
             </section>    
             
-            <section class="col col-sm col-md col-lg col-xl">
+            <section class="col-sm">
                 <h2 style="font-size: 20px;">CONTACTANOS</h2>
                 <address>
                     <h2 style="font-size: 14px;">Direccion: sal y azucar, Barcelona, España</h2>
