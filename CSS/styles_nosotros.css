@@ -7,9 +7,12 @@ body {
      color: black;
      margin-top: 50px;
  }
- 
+ .vinculos {
+    color: black;
+ }
  .tarjetas { 
      background-color: white;
+     padding: 11px;
      margin: 8px;
  }
  
