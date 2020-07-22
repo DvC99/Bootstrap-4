@@ -15,7 +15,12 @@ body {
      padding: 11px;
      margin: 8px;
  }
- 
- .btn-reserva {
-     width: 100%;
+ .card-hotel {
+    flex: 1 200px;
+    margin-top: 10px;
  }
+ .btn-reserva {
+    width: 100%;
+    border-radius: 0px;
+ }
+ 
