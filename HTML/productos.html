@@ -64,107 +64,133 @@
             </ol>
         </nav>
 
-        <section class="table-responsive">
-            <table class="table table-striped tarjetas">
-                <thead class="thead-dark">
-                    <th>Calidad</th>
-                    <th>Carro</th>
-                    <th>Alquiler</th>
-                    <th>Modelo</th>
-                    <th>Estado</th>
-                    <th>Modelo</th>
-                    <th>Estado</th>
-                </thead>
-    
-                <tbody>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>Mazda</td>
-                        <td>$100</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>Mazda</td>
-                        <td>$100</td>
-                        <td>GTX-2060 2020</td>
-                        <td>Disponible</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>Mazda</td>
-                        <td>$100</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>Mazda</td>
-                        <td>$100</td>
-                        <td>GTX-2060 2020</td>
-                        <td>Disponible</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>Mazda</td>
-                        <td>$100</td>
-                        <td>RTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>Mazda</td>
-                        <td>$100</td>
-                        <td>RX-2070 2020</td>
-                        <td>Disponible</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>Mazda</td>
-                        <td>$100</td>
-                        <td>RX-270 2020</td>
-                        <td>Disponible</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                    </tr>
-                    <tr>
-                        <td><span class="oi oi-star"></span></td>
-                        <td>Mazda</td>
-                        <td>$100</td>
-                        <td>RX-260 2020</td>
-                        <td>Disponible</td>
-                        <td>GTX-2060ti 2020</td>
-                        <td>Disponible</td>
-                    </tr>
-                </tbody>
-            </table>
+        <ul class="nav nav-tabs tarjetas" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="compra-tab" data-toggle="tab" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+            </li>
+
+            <li class="nev-item">
+                <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" id="cometarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="tarjetas" aria-selected="false">Comentarios</a>
+            </li>
+        </ul>
+
+        <section class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <section class="table-responsive">
+                    <table class="table table-striped tarjetas">
+                        <thead class="thead-dark">
+                            <th>Calidad</th>
+                            <th>Carro</th>
+                            <th>Alquiler</th>
+                            <th>Modelo</th>
+                            <th>Estado</th>
+                            <th>Modelo</th>
+                            <th>Estado</th>
+                        </thead>
+            
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>Mazda</td>
+                                <td>$100</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>Mazda</td>
+                                <td>$100</td>
+                                <td>GTX-2060 2020</td>
+                                <td>Disponible</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>Mazda</td>
+                                <td>$100</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>Mazda</td>
+                                <td>$100</td>
+                                <td>GTX-2060 2020</td>
+                                <td>Disponible</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>Mazda</td>
+                                <td>$100</td>
+                                <td>RTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>Mazda</td>
+                                <td>$100</td>
+                                <td>RX-2070 2020</td>
+                                <td>Disponible</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>Mazda</td>
+                                <td>$100</td>
+                                <td>RX-270 2020</td>
+                                <td>Disponible</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>Mazda</td>
+                                <td>$100</td>
+                                <td>RX-260 2020</td>
+                                <td>Disponible</td>
+                                <td>GTX-2060ti 2020</td>
+                                <td>Disponible</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+
+            <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                <section class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <section class="card-header">
+                            tarjetas aceptadas
+                        </section>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Tarjeta basica</li>
+                            <li class="list-group-item">Tarjeta Vip</li>
+                            <li class="list-group-item">Tarjeta Black</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="tab-pane fade tarjetas" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios</div>
         </section>
 
-        <section class="d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <section class="card-header">
-                    tarjetas aceptadas
-                </section>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Tarjeta basica</li>
-                    <li class="list-group-item">Tarjeta Vip</li>
-                    <li class="list-group-item">Tarjeta Black</li>
-                </ul>
-            </div>
-        </section>
+        
+
+       
     </main>
 
     <footer class="tarjetas">
