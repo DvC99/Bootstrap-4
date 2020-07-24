@@ -226,7 +226,7 @@
                     <button type="button" class="btn btn-primary btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-primary btn-reserva">Reserva</button>
+                    <button type="button" class="btn btn-primary btn-reserva" data-toggle="popover" title="Solo para ti" data-content="Cosulta mas promociones">Reserva</button>
                 </div>
             </section>
        </div>
@@ -296,5 +296,12 @@
     <script src="/node_modules/popper.js/dist/popper.min.js"></script>
     <!--Boodstrap JS-->
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function() {
+            $("[data-toggle = 'tooltip']").tooltip();
+            $("[data-toggle = 'popover']").popover();
+        })
+    </script>
 </body>
 </html>
