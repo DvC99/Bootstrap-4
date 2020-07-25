@@ -223,7 +223,7 @@
                     <h5 class="card-title">Producto 16</h5>
                     <h6 class="card-subtitle text-muted">Solo por hoy!</h6>
                     <p class="card-text">Compra solo por hoy este funcional producto</p>
-                    <button type="button" class="btn btn-primary btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                    <button type="button" class="btn btn-primary btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactobtn">Contacto</button>
                 </div>
                 <div>
                     <button type="button" class="btn btn-primary btn-reserva" data-toggle="popover" title="Solo para ti" data-content="Cosulta mas promociones">Reserva</button>
@@ -293,7 +293,7 @@
     <!--JQuery-->
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <!--Popper-->
-    <script src="/node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
     <!--Boodstrap JS-->
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
@@ -302,9 +302,35 @@
             $("[data-toggle = 'tooltip']").tooltip();
             $("[data-toggle = 'popover']").popover();
             $('.carousel').carousel({
-                interval: 1000
+                interval: 2000
             });
-        })
+
+            $("#contacto").on("show.bs.modal", function(e) {
+                console.log('el modal contacto se esta mostrando');
+
+                $('#contactobtn').removeClass('btn-outline-success');
+                $('#contactobtn').addClass('btn-primary');
+                $('#contactobtn').proq('disabled',true);
+            });
+
+            $("#contacto").on('show.bs.modal', function(e){
+                console.log('el modal se esta mostrando');
+            });
+
+            $("#contacto").on('shown.bs.modal', function(e){
+                console.log('se mostro el modal contacto');
+            });
+            
+            $("#contacto").on('hide.bs.modal', function(e){
+                console.log('se mostro el modal contacto');
+            });
+            
+            $("#contacto").on('hidden.bs.modal', function(e){
+                console.log('se mostro el modal contacto');
+                $('#contactobtn').proq('disabled',false);
+            });
+
+        });
     </script>
 </body>
 </html>
