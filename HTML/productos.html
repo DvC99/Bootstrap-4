@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <!--Metadatos-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <!--Favicon-->
-        <link rel="shortcut icon" href="/img/brand.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/brand.png" type="image/x-icon">
     <!--Title-->
-        <title>Landingpage</title>
+    <title>Landingpage</title>
     <!--CSS-->
     <!--Boodstrap 4  CSS-->
-    <!-- build:css dist/productos.css -->
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">   
-    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="/CSS/styles_nosotros.css">       
-    <link rel="stylesheet" href="/node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-    <!-- endbuild -->    
+    <!-- build:css css/index.css -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- endbuild -->
 </head>
+
 <body>
 
     <header>
@@ -28,7 +30,8 @@
             <a class="navbar-brand" href="#">
                 <img src="/img/brand.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,37 +46,43 @@
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
-                
+
             </div>
         </nav>
-    
+
         <div class="jumbotron">
             <h1>Cortejidos</h1>
         </div>
     </header>
-    
+
     <main class="container">
 
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item" aria-current="page"><a href="/index.html"class="vinculos">Home</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="/HTML/nosotros.html"class="vinculos">Nosotros</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="/HTML/contacto.html"class="vinculos">Contacto</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="/HTML/productos.html"class="vinculos">Productos</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="/index.html" class="vinculos">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="/HTML/nosotros.html"
+                        class="vinculos">Nosotros</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="/HTML/contacto.html"
+                        class="vinculos">Contacto</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="/HTML/productos.html"
+                        class="vinculos">Productos</a></li>
             </ol>
         </nav>
 
         <ul class="nav nav-tabs tarjetas" id="myTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="compra-tab" data-toggle="tab" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+                <a class="nav-link active" id="compra-tab" data-toggle="tab" href="#compara" role="tab"
+                    aria-controls="compara" aria-selected="true">Compara</a>
             </li>
 
             <li class="nev-item">
-                <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+                <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab"
+                    aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" id="cometarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="tarjetas" aria-selected="false">Comentarios</a>
+                <a class="nav-link" id="cometarios-tab" data-toggle="tab" href="#comentarios" role="tab"
+                    aria-controls="tarjetas" aria-selected="false">Comentarios</a>
             </li>
         </ul>
 
@@ -90,7 +99,7 @@
                             <th>Modelo</th>
                             <th>Estado</th>
                         </thead>
-            
+
                         <tbody>
                             <tr>
                                 <td><span class="oi oi-star"></span></td>
@@ -174,12 +183,14 @@
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">
-                                 Tarjeta Basica   
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">
+                                    Tarjeta Basica
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseBasica" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+                        <div id="collapseBasica" class="collapse" aria-labelledby="headingOne"
+                            data-parent="#accordionTarjetas">
                             <div class="card-body">
                                 Puedes reservar en 3 cuotas sin interes
                             </div>
@@ -189,12 +200,14 @@
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="true" aria-controls="collapseVIP">
-                                 Tarjeta VIP   
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseVIP" aria-expanded="true" aria-controls="collapseVIP">
+                                    Tarjeta VIP
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseVIP" class="collapse" aria-labelledby="headingTow" data-parent="#accordionTarjetas">
+                        <div id="collapseVIP" class="collapse" aria-labelledby="headingTow"
+                            data-parent="#accordionTarjetas">
                             <div class="card-body">
                                 Puedes reservar en 3 cuotas sin interes
                             </div>
@@ -204,12 +217,14 @@
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBlack" aria-expanded="true" aria-controls="collapseBlack">
-                                 Tarjeta Basica   
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseBlack" aria-expanded="true" aria-controls="collapseBlack">
+                                    Tarjeta Basica
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseBlack" class="collapse" aria-labelledby="headingTrhee" data-parent="#accordionTarjetas">
+                        <div id="collapseBlack" class="collapse" aria-labelledby="headingTrhee"
+                            data-parent="#accordionTarjetas">
                             <div class="card-body">
                                 Puedes reservar en 3 cuotas sin interes
                             </div>
@@ -218,32 +233,36 @@
                 </section>
             </div>
 
-            <div class="tab-pane fade tarjetas" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios</div>
+            <div class="tab-pane fade tarjetas" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+                Comentarios</div>
         </section>
 
-        
 
-       
+
+
     </main>
 
     <footer class="tarjetas">
         <section class="row">
             <section class="col-sm">
                 <h2 style="font-size: 20px;">SIGUENOS EN NUESTRAS REDES SOCIALESS</h2>
-                <a href="#" >
+                <a href="#">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="#">
                     <i class="fa fa-twitter" aria-hidden="true"></i> </a>
                 <a href="#">
                     <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </section>    
-            
+            </section>
+
             <section class="col-sm">
                 <h2 style="font-size: 20px;">CONTACTANOS</h2>
                 <address>
-                    <h2 style="font-size: 14px;"><span class="oi oi-home" style="margin: 5px;"></span>Direccion: sal y azucar, Barcelona, España</h2>
-                    <h2 style="font-size: 14px;"><span class="oi oi-phone" style="margin: 5px;"></span>Telefono: +32 3452347652</h2>
-                    <h2 style="font-size: 14px;"><span class="oi oi-person" style="margin: 5px;"></span>Correo: danielvaleneciacordero@gmail.com</h2>
+                    <h2 style="font-size: 14px;"><span class="oi oi-home" style="margin: 5px;"></span>Direccion: sal y
+                        azucar, Barcelona, España</h2>
+                    <h2 style="font-size: 14px;"><span class="oi oi-phone" style="margin: 5px;"></span>Telefono: +32
+                        3452347652</h2>
+                    <h2 style="font-size: 14px;"><span class="oi oi-person" style="margin: 5px;"></span>Correo:
+                        danielvaleneciacordero@gmail.com</h2>
                 </address>
             </section>
 
@@ -253,13 +272,15 @@
         </section>
     </footer>
 
-    
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- build:js dist/productos.js -->
-    <script src="/node_modules/jquery/dist/jquery.min.js"></script>    
-    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>    
+    <!-- build:js js/index.js -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/JS/main.js"></script>
     <!-- endbuild -->
 </body>
+
 </html>

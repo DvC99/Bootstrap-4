@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <!--Metadatos-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <!--Favicon-->
-        <link rel="shortcut icon" href="/img/brand.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/brand.png" type="image/x-icon">
     <!--Title-->
-        <title>Landingpage</title>
+    <title>Landingpage</title>
     <!--CSS-->
     <!--Boodstrap 4  CSS-->
-    <!-- build:css dist/contacto.css -->
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">    
-    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="/CSS/styles_nosotros.css">        
-    <link rel="stylesheet" href="/node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- build:css css/index.css -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <!-- endbuild -->
 </head>
+
 <body>
 
     <header>
@@ -28,7 +30,8 @@
             <a class="navbar-brand" href="#">
                 <img src="/img/brand.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,38 +46,38 @@
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
-                
+
             </div>
         </nav>
-    
+
         <div class="jumbotron">
             <h1>Cortejidos</h1>
         </div>
     </header>
-    
+
     <main>
-        
+
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item" aria-current="page"><a href="/index.html"class="vinculos">Home</a></li>
-                <li class="breadcrumb-item" aria-current="page"><a href="/HTML/nosotros.html"class="vinculos">Nosotros</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="/HTML/contacto.html"class="vinculos">Contacto</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="/index.html" class="vinculos">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="/HTML/nosotros.html"
+                        class="vinculos">Nosotros</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="/HTML/contacto.html"
+                        class="vinculos">Contacto</a></li>
             </ol>
         </nav>
 
-        <form class="tarjetas"> 
+        <form class="tarjetas">
             <h1>Deja tus comentarios</h1>
-        
+
             <section class="form-row">
                 <section class="form-group col-sm-6">
                     <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre"
-                    placeholder="Ingrese su nombre">
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
                 </section>
                 <section class="form-group col-sm-6">
                     <label for="apellido">Apellido</label>
-                    <input type="text" class="form-control" id="apellido"
-                    placeholder="Ingrese su apellido">
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
                 </section>
             </section>
             <section class="form-group">
@@ -97,19 +100,20 @@
                     </select>
                 </section>
             </section>
-                <section class="from-group">
-                    <label for="comentario">Comentario</label>
-                    <textarea id="comentario" class="form-control" rows="10"></textarea>
+            <section class="from-group">
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" class="form-control" rows="10"></textarea>
+            </section>
+            <section class="form-group">
+                <section class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label for="gridCheck" class="form-check-label">
+                        Quiero que me contacten
+                    </label>
                 </section>
-                <section class="form-group">
-                    <section class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label for="gridCheck" class="form-check-label">
-                            Quiero que me contacten
-                        </label>
-                    </section>
-                </section>
-                <button type="submit" class="btn btn-secondary" style="background-color: yellowgreen;color: black;">Enviar</button>
+            </section>
+            <button type="submit" class="btn btn-secondary"
+                style="background-color: yellowgreen;color: black;">Enviar</button>
         </form>
 
 
@@ -121,20 +125,23 @@
         <section class="row">
             <section class="col-sm">
                 <h2 style="font-size: 20px;">SIGUENOS EN NUESTRAS REDES SOCIALESS</h2>
-                <a href="#" >
+                <a href="#">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="#">
                     <i class="fa fa-twitter" aria-hidden="true"></i> </a>
                 <a href="#">
                     <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </section>    
-            
+            </section>
+
             <section class="col-sm">
                 <h2 style="font-size: 20px;">CONTACTANOS</h2>
                 <address>
-                    <h2 style="font-size: 14px;"><span class="oi oi-home" style="margin: 5px;"></span>Direccion: sal y azucar, Barcelona, España</h2>
-                    <h2 style="font-size: 14px;"><span class="oi oi-phone" style="margin: 5px;"></span>Telefono: +32 3452347652</h2>
-                    <h2 style="font-size: 14px;"><span class="oi oi-person" style="margin: 5px;"></span>Correo: danielvaleneciacordero@gmail.com</h2>
+                    <h2 style="font-size: 14px;"><span class="oi oi-home" style="margin: 5px;"></span>Direccion: sal y
+                        azucar, Barcelona, España</h2>
+                    <h2 style="font-size: 14px;"><span class="oi oi-phone" style="margin: 5px;"></span>Telefono: +32
+                        3452347652</h2>
+                    <h2 style="font-size: 14px;"><span class="oi oi-person" style="margin: 5px;"></span>Correo:
+                        danielvaleneciacordero@gmail.com</h2>
                 </address>
             </section>
 
@@ -144,13 +151,15 @@
         </section>
     </footer>
 
-    
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- build:js dist/contacto.js -->    
-    <script src="/node_modules/jquery/dist/jquery.min.js"></script>    
+    <!-- build:js js/index.js -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/JS/main.js"></script>
     <!-- endbuild -->
 </body>
+
 </html>
