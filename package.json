@@ -11,7 +11,8 @@
     "watch:scss": "onchange 'CSS/*.scss' -- nom run scss",
     "clean": "rimraf dist",
     "imagemin": "imagemin img/* --out-dir dist/img",
-    "usemin":"usemin index.html -d dist --htmlmin -o dist/index.html && usemin nosotros.html -d dist --htmlmin -o dist/nosotros.html && usemin contacto.html -d dist --htmlmin -o dist/contacto.html && usemin productos.html -d dist --htmlmin -o dist/productos.html"
+    "usemin":"usemin index.html -d dist --htmlmin -o dist/index.html && usemin nosotros.html -d dist --htmlmin -o dist/nosotros.html && usemin contacto.html -d dist --htmlmin -o dist/contacto.html && usemin productos.html -d dist --htmlmin -o dist/productos.html",
+    "build":"npm run clear && npm run scss && npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
