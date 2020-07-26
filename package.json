@@ -5,8 +5,13 @@
   "main": "index.html",
   "scripts": {
     "dev": "lite-server",
+    "start": "concurrently \"npm run watch:scss\"\"npm run dev\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -o CSS/ CSS/"
+    "scss": "node-sass -o CSS/ CSS/",
+    "watch:scss": "onchange 'CSS/*.scss' -- nom run scss",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin img/* --out-dir dist/img",
+    "usemin":"usemin index.html -d dist --htmlmin -o dist/index.html && usemin nosotros.html -d dist --htmlmin -o dist/nosotros.html && usemin contacto.html -d dist --htmlmin -o dist/contacto.html && usemin productos.html -d dist --htmlmin -o dist/productos.html"
   },
   "repository": {
     "type": "git",
@@ -19,12 +24,20 @@
   },
   "homepage": "https://github.com/DvC99/Bootstrap-4#readme",
   "devDependencies": {
+    "copyfiles": "^2.3.0",
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
     "lite-server": "^2.5.4",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2",
+    "rimraf": "^3.0.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
+    "concurrently": "^5.2.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "open-iconic": "^1.1.1",
